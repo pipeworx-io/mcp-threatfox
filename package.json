@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-threatfox",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ThreatFox MCP — abuse.ch indicator-of-compromise feed (free, key required)",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-threatfox": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "threatfox"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-threatfox"
+    "url": "git+https://github.com/pipeworx-io/mcp-threatfox.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-2c2637ff4bdb9b2ca9ca6b7207f76135ac7760a203d60ccb0c392700338505f3",
+    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
   }
 }

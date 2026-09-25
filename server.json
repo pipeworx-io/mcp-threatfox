@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/threatfox",
   "title": "Threatfox",
   "description": "ThreatFox MCP — abuse.ch indicator-of-compromise feed (free, key required)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/threatfox",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-threatfox",
