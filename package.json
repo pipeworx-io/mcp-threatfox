@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-threatfox",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ThreatFox MCP — abuse.ch indicator-of-compromise feed (free, key required)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-2c2637ff4bdb9b2ca9ca6b7207f76135ac7760a203d60ccb0c392700338505f3",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-954f8aabd36973bbb7df662a42af7c155e1ab88acc3af857f705ac25d628458b",
+    "sourceCommit": "66a0692f029179984440cef6938cba7fdd41d66d"
   }
 }
