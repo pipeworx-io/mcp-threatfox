@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-threatfox",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "ThreatFox MCP — abuse.ch indicator-of-compromise feed (free, key required)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "threatfox",
     "gatewaySlug": "threatfox",
-    "sourceHash": "v1-8264df3f17f9d93a3d3e152a87eecb17300c97dec5989673638bc947a54cd2f8",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-f0115b3110636a8823b7dd225a289b6a8450254b1f2892340281620fe7c3c053",
+    "sourceCommit": "868e119d526d5409447b7ee2149afba7eb9d2593"
   }
 }
